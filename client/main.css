@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+header {
+  background-color: #303f9f;
+  display: flex;
+  padding: 20px 15px 15px 15px;
+  position: relative;
+  color: #fff;
+}
+
+#login-buttons {
+  margin-right: auto;
+  display: flex;
+}
+ 
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+ 
+p {
+  line-height: 1.3em;
+}
+
+.mainBlock {
+  text-align: center;
+  margin-top: 1em;
+}
+
+h2.title {
+  margin: 1em;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.myBlue {
+  line-height: 2em;
+  color: #303f9f;
+}
+
+.btn {
+  border: 2px solid #303f9f;
+  color: #303f9f;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.upload-btn-wrapper input[type=file] {
+  cursor: pointer;
+
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
